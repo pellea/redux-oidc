@@ -1,7 +1,7 @@
 {
-  "name": "redux-oidc",
+  "name": "redux-oidc-fetch",
   "version": "3.0.0-beta.3",
-  "description": "A package for managing OpenID Connect authentication in redux apps",
+  "description": "A package for managing OpenID Connect authentication in redux apps (uses oidc-client-fetch)",
   "main": "dist/redux-oidc.js",
   "scripts": {
     "test": "mocha-webpack --webpack-config webpack.config-test.js \"tests/**/*.test.js\"",
@@ -10,11 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxmantz/redux-oidc.git"
+    "url": "https://github.com/pellea/redux-oidc.git"
   },
   "bugs": {
-    "url": "https://github.com/maxmantz/redux-oidc/issues",
-    "email": "maximilian.mantz@yahoo.de"
+    "url": "https://github.com/pellea/redux-oidc/issues"
   },
   "keywords": [
     "oidc",
@@ -58,7 +57,7 @@
   "peerDependencies": {
     "co": ">=4.6.0",
     "react": ">=0.14.0",
-    "oidc-client": ">=1.2.0"
+    "oidc-client-fetch": "1.2.2-fetch1"
   },
   "optionalDependencies": {
     "immutable": ">=3.6.0"
